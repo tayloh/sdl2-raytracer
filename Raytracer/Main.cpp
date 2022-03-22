@@ -115,6 +115,8 @@ int main(int argc, char* args[])
 		std::cout << "Render time: " << dt << " ms." << std::endl;
 	}
 
+	//SDL_SaveBMP(screenHandle, "C:/Users/taylo/Desktop/src/cg/repos/sdl2-raytracer/images/image.bmp");
+
 	delete[] renderBuffer; // Clear memory occupied by renderBuffer
 	return 0;
 }
